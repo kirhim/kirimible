@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2204593B21E5C48400DC4776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204593A21E5C48400DC4776 /* AppDelegate.swift */; };
+		2204593D21E5C48400DC4776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204593C21E5C48400DC4776 /* ViewController.swift */; };
+		2204594021E5C48400DC4776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2204593E21E5C48400DC4776 /* Main.storyboard */; };
+		2204594221E5C48600DC4776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2204594121E5C48600DC4776 /* Assets.xcassets */; };
+		2204594521E5C48600DC4776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2204594321E5C48600DC4776 /* LaunchScreen.storyboard */; };
+		2204595021E5C48600DC4776 /* kirimiBLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204594F21E5C48600DC4776 /* kirimiBLETests.swift */; };
+		2204595B21E5C48600DC4776 /* kirimiBLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204595A21E5C48600DC4776 /* kirimiBLEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2204594C21E5C48600DC4776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2204592F21E5C48400DC4776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2204593621E5C48400DC4776;
+			remoteInfo = kirimiBLE;
+		};
+		2204595721E5C48600DC4776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2204592F21E5C48400DC4776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2204593621E5C48400DC4776;
+			remoteInfo = kirimiBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2204593721E5C48400DC4776 /* kirimiBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kirimiBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2204593A21E5C48400DC4776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2204593C21E5C48400DC4776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2204593F21E5C48400DC4776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2204594121E5C48600DC4776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2204594421E5C48600DC4776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2204594621E5C48600DC4776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2204594B21E5C48600DC4776 /* kirimiBLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kirimiBLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2204594F21E5C48600DC4776 /* kirimiBLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kirimiBLETests.swift; sourceTree = "<group>"; };
+		2204595121E5C48600DC4776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2204595621E5C48600DC4776 /* kirimiBLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kirimiBLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2204595A21E5C48600DC4776 /* kirimiBLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kirimiBLEUITests.swift; sourceTree = "<group>"; };
+		2204595C21E5C48600DC4776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2204593421E5C48400DC4776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2204594821E5C48600DC4776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2204595321E5C48600DC4776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2204592E21E5C48400DC4776 = {
+			isa = PBXGroup;
+			children = (
+				2204593921E5C48400DC4776 /* kirimiBLE */,
+				2204594E21E5C48600DC4776 /* kirimiBLETests */,
+				2204595921E5C48600DC4776 /* kirimiBLEUITests */,
+				2204593821E5C48400DC4776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2204593821E5C48400DC4776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2204593721E5C48400DC4776 /* kirimiBLE.app */,
+				2204594B21E5C48600DC4776 /* kirimiBLETests.xctest */,
+				2204595621E5C48600DC4776 /* kirimiBLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2204593921E5C48400DC4776 /* kirimiBLE */ = {
+			isa = PBXGroup;
+			children = (
+				2204593A21E5C48400DC4776 /* AppDelegate.swift */,
+				2204593C21E5C48400DC4776 /* ViewController.swift */,
+				2204593E21E5C48400DC4776 /* Main.storyboard */,
+				2204594121E5C48600DC4776 /* Assets.xcassets */,
+				2204594321E5C48600DC4776 /* LaunchScreen.storyboard */,
+				2204594621E5C48600DC4776 /* Info.plist */,
+			);
+			path = kirimiBLE;
+			sourceTree = "<group>";
+		};
+		2204594E21E5C48600DC4776 /* kirimiBLETests */ = {
+			isa = PBXGroup;
+			children = (
+				2204594F21E5C48600DC4776 /* kirimiBLETests.swift */,
+				2204595121E5C48600DC4776 /* Info.plist */,
+			);
+			path = kirimiBLETests;
+			sourceTree = "<group>";
+		};
+		2204595921E5C48600DC4776 /* kirimiBLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2204595A21E5C48600DC4776 /* kirimiBLEUITests.swift */,
+				2204595C21E5C48600DC4776 /* Info.plist */,
+			);
+			path = kirimiBLEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2204593621E5C48400DC4776 /* kirimiBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2204595F21E5C48600DC4776 /* Build configuration list for PBXNativeTarget "kirimiBLE" */;
+			buildPhases = (
+				2204593321E5C48400DC4776 /* Sources */,
+				2204593421E5C48400DC4776 /* Frameworks */,
+				2204593521E5C48400DC4776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kirimiBLE;
+			productName = kirimiBLE;
+			productReference = 2204593721E5C48400DC4776 /* kirimiBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2204594A21E5C48600DC4776 /* kirimiBLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2204596221E5C48600DC4776 /* Build configuration list for PBXNativeTarget "kirimiBLETests" */;
+			buildPhases = (
+				2204594721E5C48600DC4776 /* Sources */,
+				2204594821E5C48600DC4776 /* Frameworks */,
+				2204594921E5C48600DC4776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2204594D21E5C48600DC4776 /* PBXTargetDependency */,
+			);
+			name = kirimiBLETests;
+			productName = kirimiBLETests;
+			productReference = 2204594B21E5C48600DC4776 /* kirimiBLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2204595521E5C48600DC4776 /* kirimiBLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2204596521E5C48600DC4776 /* Build configuration list for PBXNativeTarget "kirimiBLEUITests" */;
+			buildPhases = (
+				2204595221E5C48600DC4776 /* Sources */,
+				2204595321E5C48600DC4776 /* Frameworks */,
+				2204595421E5C48600DC4776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2204595821E5C48600DC4776 /* PBXTargetDependency */,
+			);
+			name = kirimiBLEUITests;
+			productName = kirimiBLEUITests;
+			productReference = 2204595621E5C48600DC4776 /* kirimiBLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2204592F21E5C48400DC4776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = connectionlab;
+				TargetAttributes = {
+					2204593621E5C48400DC4776 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2204594A21E5C48600DC4776 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2204593621E5C48400DC4776;
+					};
+					2204595521E5C48600DC4776 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2204593621E5C48400DC4776;
+					};
+				};
+			};
+			buildConfigurationList = 2204593221E5C48400DC4776 /* Build configuration list for PBXProject "kirimiBLE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2204592E21E5C48400DC4776;
+			productRefGroup = 2204593821E5C48400DC4776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2204593621E5C48400DC4776 /* kirimiBLE */,
+				2204594A21E5C48600DC4776 /* kirimiBLETests */,
+				2204595521E5C48600DC4776 /* kirimiBLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2204593521E5C48400DC4776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2204594521E5C48600DC4776 /* LaunchScreen.storyboard in Resources */,
+				2204594221E5C48600DC4776 /* Assets.xcassets in Resources */,
+				2204594021E5C48400DC4776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2204594921E5C48600DC4776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2204595421E5C48600DC4776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2204593321E5C48400DC4776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2204593D21E5C48400DC4776 /* ViewController.swift in Sources */,
+				2204593B21E5C48400DC4776 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2204594721E5C48600DC4776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2204595021E5C48600DC4776 /* kirimiBLETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2204595221E5C48600DC4776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2204595B21E5C48600DC4776 /* kirimiBLEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2204594D21E5C48600DC4776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2204593621E5C48400DC4776 /* kirimiBLE */;
+			targetProxy = 2204594C21E5C48600DC4776 /* PBXContainerItemProxy */;
+		};
+		2204595821E5C48600DC4776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2204593621E5C48400DC4776 /* kirimiBLE */;
+			targetProxy = 2204595721E5C48600DC4776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2204593E21E5C48400DC4776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2204593F21E5C48400DC4776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2204594321E5C48600DC4776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2204594421E5C48600DC4776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2204595D21E5C48600DC4776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2204595E21E5C48600DC4776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2204596021E5C48600DC4776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3GD7CNL4R;
+				INFOPLIST_FILE = kirimiBLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kirimiBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2204596121E5C48600DC4776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3GD7CNL4R;
+				INFOPLIST_FILE = kirimiBLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kirimiBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2204596321E5C48600DC4776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3GD7CNL4R;
+				INFOPLIST_FILE = kirimiBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kirimiBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kirimiBLE.app/kirimiBLE";
+			};
+			name = Debug;
+		};
+		2204596421E5C48600DC4776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3GD7CNL4R;
+				INFOPLIST_FILE = kirimiBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kirimiBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kirimiBLE.app/kirimiBLE";
+			};
+			name = Release;
+		};
+		2204596621E5C48600DC4776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3GD7CNL4R;
+				INFOPLIST_FILE = kirimiBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kirimiBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kirimiBLE;
+			};
+			name = Debug;
+		};
+		2204596721E5C48600DC4776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3GD7CNL4R;
+				INFOPLIST_FILE = kirimiBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kirimiBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kirimiBLE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2204593221E5C48400DC4776 /* Build configuration list for PBXProject "kirimiBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2204595D21E5C48600DC4776 /* Debug */,
+				2204595E21E5C48600DC4776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2204595F21E5C48600DC4776 /* Build configuration list for PBXNativeTarget "kirimiBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2204596021E5C48600DC4776 /* Debug */,
+				2204596121E5C48600DC4776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2204596221E5C48600DC4776 /* Build configuration list for PBXNativeTarget "kirimiBLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2204596321E5C48600DC4776 /* Debug */,
+				2204596421E5C48600DC4776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2204596521E5C48600DC4776 /* Build configuration list for PBXNativeTarget "kirimiBLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2204596621E5C48600DC4776 /* Debug */,
+				2204596721E5C48600DC4776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2204592F21E5C48400DC4776 /* Project object */;
+}
