@@ -14,6 +14,7 @@
 		2204594521E5C48600DC4776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2204594321E5C48600DC4776 /* LaunchScreen.storyboard */; };
 		2204595021E5C48600DC4776 /* kirimiBLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204594F21E5C48600DC4776 /* kirimiBLETests.swift */; };
 		2204595B21E5C48600DC4776 /* kirimiBLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2204595A21E5C48600DC4776 /* kirimiBLEUITests.swift */; };
+		2204596A21E5C4AB00DC4776 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2204596921E5C4AB00DC4776 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2204595621E5C48600DC4776 /* kirimiBLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kirimiBLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2204595A21E5C48600DC4776 /* kirimiBLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kirimiBLEUITests.swift; sourceTree = "<group>"; };
 		2204595C21E5C48600DC4776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2204596921E5C4AB00DC4776 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2204596A21E5C4AB00DC4776 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				2204594E21E5C48600DC4776 /* kirimiBLETests */,
 				2204595921E5C48600DC4776 /* kirimiBLEUITests */,
 				2204593821E5C48400DC4776 /* Products */,
+				2204596821E5C4AB00DC4776 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				2204595C21E5C48600DC4776 /* Info.plist */,
 			);
 			path = kirimiBLEUITests;
+			sourceTree = "<group>";
+		};
+		2204596821E5C4AB00DC4776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2204596921E5C4AB00DC4776 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
